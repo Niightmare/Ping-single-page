@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <script src="main.js" defer></script>
+
+    <title>Frontend Mentor | Ping coming soon page</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <img class="logo" src="images/logo.svg" alt="Ping Logo" />
+        <h2>We are launching <strong>soon!</strong></h2>
+        <p>Subscribe and get notified</p>
+        <form class="notify-form" novalidate>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            aria-label="Email Address"
+            placeholder="Your email address..."
+            required
+          />
+          <p class="message">Please provide a valid email address</p>
+          <button type="submit" id="btn-submit" class="btn btn-blue">
+            Notify Me
+          </button>
+        </form>
+
+        <img
+          src="images/illustration-dashboard.png"
+          alt="illustration-dashboard"
+          class="dashboard"
+        />
+      </div>
+
+      <footer>
+        <div class="socials">
+          <div class="social-icon">
+            <i class="fab fa-facebook-f"></i>
+          </div>
+          <div class="social-icon">
+            <i class="fab fa-twitter"></i>
+          </div>
+          <div class="social-icon">
+            <i class="fab fa-instagram"></i>
+          </div>
+        </div>
+        <p class="copyright">© Copyright Ping. All rights reserved.</p>
+        <p class="attribution">
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+            >Frontend Mentor</a
+          >. Coded by <a href="#">NI1GHTMARE</a>.
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
